@@ -15,7 +15,7 @@ Example request: `http://iniendpoint.com:5000/predict`
 
 ### Request
 `Method: POST /predict` <br>
-```json
+```javascript
 header { 
     X-Auth-Token: '123456' // string
 }
@@ -23,7 +23,7 @@ header {
 <br>
 
 `type : multipart/form-data`
-```json
+```javascript
 body { 
     file : ini_file.jpg // file
 }
@@ -31,7 +31,7 @@ body {
 <br>
 
 ### Response
-```json
+```javascript
 body { 
     error: False, // boolean
     message: 'Success', // string
