@@ -1,10 +1,11 @@
 # Barat-MachineLearning
 Sign Language Recognition : BARAT ( bahasa isyarat )
 ## System requirement
-- python v3.7 ++ 
-- tensorflow v2.7.0 ++
+- python v3.9.2 
+- tensorflow v2.10.1
 - flask
 - numpy
+- python-dotenv
 
 ## System config
 - edit `.env` file for and customize API_KEY (X-Auth-Token)
@@ -21,7 +22,6 @@ header {
 }
 ```
 <br>
-
 `type : multipart/form-data`
 ```javascript
 body { 
@@ -29,7 +29,6 @@ body {
 }
 ```
 <br>
-
 ### Response
 ```javascript
 body { 
