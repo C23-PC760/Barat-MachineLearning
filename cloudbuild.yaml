@@ -11,7 +11,7 @@
    args:
    - 'run'
    - 'deploy'
-   - 'barat_ml'
+   - 'baratml'
    - '--image'
    - 'asia.gcr.io/$PROJECT_ID/barat_ml:$COMMIT_SHA'
    - '--region'
