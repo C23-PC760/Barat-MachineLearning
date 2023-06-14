@@ -6,6 +6,7 @@ Sign Language Recognition : BARAT ( bahasa isyarat )
 - flask ~ v2.3.2
 - Pillow ~ v9.5.0
 - numpy
+- gevent
 - python-dotenv
 
 ## System config

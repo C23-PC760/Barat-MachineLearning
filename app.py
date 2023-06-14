@@ -2,6 +2,7 @@ import os
 import sys
 import tensorflow as tf
 from dotenv import load_dotenv
+from gevent.pywsgi import WSGIServer
 from flask import Flask, request, jsonify
 from src.handler import predict_handler
 
@@ -38,4 +39,9 @@ def run_predict():
 
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0', port=5000)
+    # Development
+    # app.run(debug=False, host='0.0.0.0', port=5000)
+    
+    # Production
+    http_server = WSGIServer(('', 5000), app)
+    http_server.serve_forever()
