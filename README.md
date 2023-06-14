@@ -24,6 +24,7 @@ header {
 }
 ```
 <br>
+
 `type : multipart/form-data`
 ```javascript
 body { 
@@ -31,6 +32,7 @@ body {
 }
 ```
 <br>
+
 ### Response
 ```javascript
 body { 
