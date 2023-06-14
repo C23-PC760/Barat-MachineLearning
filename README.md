@@ -1,9 +1,10 @@
 # Barat-MachineLearning
 Sign Language Recognition : BARAT ( bahasa isyarat )
 ## System requirement
-- python v3.9.2 
-- tensorflow v2.10.1
-- flask
+- python ~ v3.9.2 
+- tensorflow ~ v2.10.1
+- flask ~ v2.3.2
+- Pillow ~ v9.5.0
 - numpy
 - python-dotenv
 
