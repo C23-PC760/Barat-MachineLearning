@@ -2,7 +2,7 @@ FROM python:3.8.13-slim AS dependencies
 
 WORKDIR /app
 
-EXPOSE 5000
+EXPOSE 8080
 
 ADD . .
 
